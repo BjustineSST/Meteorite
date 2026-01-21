@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Audio Météorites</title>
+  <style>
+    body { font-family: system-ui, Arial, sans-serif; margin: 16px; }
+    .card { border: 1px solid #ddd; border-radius: 12px; padding: 12px; margin-bottom: 12px; }
+    .title { font-weight: 700; margin-bottom: 8px; }
+    .hint { font-size: 12px; opacity: 0.75; margin-top: 6px; }
+    audio { width: 100%; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="title">🔊 Enregistrement 1</div>
+    <audio controls preload="none">
+      <source src="./audio1.mp3" type="audio/mpeg">
+      Ton navigateur ne supporte pas l’audio.
+    </audio>
+    <div class="hint">Clique ▶️ pour écouter.</div>
+  </div>
+
+  <div class="card">
+    <div class="title">🔊 Enregistrement 2</div>
+    <audio controls preload="none">
+      <source src="./audio2.mp3" type="audio/mpeg">
+      Ton navigateur ne supporte pas l’audio.
+    </audio>
+    <div class="hint">Clique ▶️ pour écouter.</div>
+  </div>
+</body>
+</html>
